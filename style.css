@@ -19,7 +19,7 @@ body {
 .header-wrapper {
     display: flex;
     justify-content: space-between;
-    padding: 20px 128px;
+    padding: 20px 120px;
     background-color: #1F2937;
     height: 72px;
     align-items: center;
@@ -57,7 +57,7 @@ ul {
 .title-wrapper {
     display: flex;
     /* justify-content: space-between; */
-    padding: 40px 128px;
+    padding: 40px 120px;
     background-color: #1F2937;
     height: 320px;
     gap: 16px;
@@ -98,29 +98,42 @@ ul {
 /* Info styles */
 
 .info-wrapper {
-    height: 320px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     text-align: center;
-    padding: 32px;
+    gap: 40px;
 }
 
 .info-wrapper > h2 {
-    margin-bottom: 32px;
+    font-size: 32px;
+    color: #1F2937;
+    font-weight: 900;
 }
 
 .info-figures {
     display: flex;
-    gap: 16px;
+    gap: 40px;
     justify-content: center;
 }
 
 .info-figures > * {
-    max-width: 120px;
+    max-width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
 }
 
 .info-figures > * > img {
-    max-height: 120px;
-    max-width: 120px;
+    min-height: 150px;
+    max-width: 150px;
     width: 100%;
     height: 100%;
     border-radius: 8px;
+}
+
+.info-figures > * > figcaption {
+    color: #929496;
 }
