@@ -20,7 +20,9 @@ body {
     justify-content: space-between;
     padding: 20px 128px;
     background-color: #1F2937;
-    flex-wrap: wrap;
+    height: 72px;
+    align-items: center;
+    min-width: 1000px;
 }
 
 .header-logo {
@@ -32,7 +34,6 @@ body {
 .header-links {
     display: flex;
     gap: 24px;
-    flex-wrap: wrap;
 }
 
 ul {
@@ -55,23 +56,29 @@ a:hover {
 
 .title-wrapper {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     padding: 40px 128px;
     background-color: #1F2937;
-    gap: 32px;
+    height: 320px;
+    gap: 16px;
+    min-width: 1000px;
+}
+
+.title-wrapper > * {
+    flex: 1;
 }
 
 .title-writing h1 {
     color: #F9FAF8;
     font-size: 48px;
     font-weight: 900;
-    padding-bottom: 12px;
+    margin-bottom: 12px;
 }
 
 .title-writing p {
     color: #E5E7EB;
     font-size: 18px;
-    padding-bottom: 12px;
+    margin-bottom: 12px;
 }
 
 .title-writing button {
@@ -83,7 +90,8 @@ a:hover {
     font-size: 16px;
 }
 
-.title-wrapper img {
-    max-height: 300px;
-    max-width: 500px;
+.title-image img {
+    max-height: 100%;
+    width: 100%;
+    object-fit: contain;
 }
