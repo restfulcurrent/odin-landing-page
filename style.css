@@ -137,3 +137,29 @@ ul {
 .info-figures > * > figcaption {
     color: #929496;
 }
+
+/* Quote Styling */
+
+.quote-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 320px;
+    padding: 0px 256px;
+    background-color: #E5E7EB;
+    gap: 12px;
+}
+
+.quote-wrapper > blockquote p {
+    font-size: 28px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+}
+
+.quote-wrapper > p {
+    align-self: flex-end;
+    margin-right: 32px;
+    font-size: 20px;
+    font-weight: 700;
+}
