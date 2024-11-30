@@ -170,11 +170,11 @@ ul {
 
 .quote {
     max-width: 75%;
-    display: flex;
-    flex-grow: 1;
+    /* display: flex; */
+    /* flex-grow: 1;
     flex-direction: column;
     justify-content: center;
-    gap: 12px;
+    gap: 12px; */
 }
 
 .quote > blockquote{
@@ -184,8 +184,13 @@ ul {
     color: #1F2937;
 }
 
+.quote > blockquote > p {
+    margin-bottom: 12px;
+}
+
 .quote > p {
-    align-self: flex-end;
+    /* align-self: flex-end; */
+    text-align: end;
     font-size: 20px;
     font-weight: 700;
 }
