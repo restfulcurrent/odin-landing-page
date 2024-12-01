@@ -58,6 +58,7 @@ body {
     gap: 88px;
     max-width: 1112px;
     margin: 0px auto;
+    justify-content: space-between;
 }
 
 .title > .lhs h1 {
