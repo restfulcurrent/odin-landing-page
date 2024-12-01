@@ -108,6 +108,7 @@ body {
     gap: 32px;
     max-width: 1072px;
     margin: 0px auto;
+    width: fit-content;
 }
 
 .figures > figure {
@@ -128,6 +129,7 @@ body {
 .quote {
     max-width: 800px;
     margin: 0px auto;
+    width: fit-content;
 }
 
 .quote > blockquote > p{
