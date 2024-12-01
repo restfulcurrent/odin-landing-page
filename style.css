@@ -120,3 +120,26 @@ figure > img {
     height: 160px;
     margin-bottom: 12px;
 }
+
+.quote {
+    padding: 88px;
+    background-color: #E5E7EB;
+}
+
+.quote > blockquote{
+    font-size: 28px;
+    font-style: italic;
+    color: #1F2937;
+    margin-bottom: 8px;
+}
+
+.quote > p {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: right;
+}
+
+.quote > * {
+    max-width: 800px;
+    margin: 0px auto;
+}
