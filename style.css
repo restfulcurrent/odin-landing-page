@@ -35,7 +35,6 @@ body {
 .header > ul {
     list-style-type: none;
     display: flex;
-    justify-content: space-between;
     gap: 24px;
 }
 
@@ -56,12 +55,9 @@ body {
 
 .title {
     display: flex;
-    justify-content: center;
     gap: 88px;
-}
-
-.title > .lhs {
-    max-width: 640px;
+    max-width: 1112px;
+    margin: 0px auto;
 }
 
 .title > .lhs h1 {
