@@ -1,6 +1,6 @@
 # odin-landing-page
 
-Create an web page from the design provided using flexbox rules when appropriate.
+Create a web page from the design provided using flexbox rules when appropriate.
 
 Ocean image by [Pexels](https://pixabay.com/users/pexels-2286921/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1850228) from [Pixabay](https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1850228)
 
