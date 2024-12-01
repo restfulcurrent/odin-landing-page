@@ -103,8 +103,10 @@ body {
 
 .info > .figures {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     gap: 32px;
+    max-width: 1072px;
+    margin: 0px auto;
 }
 
 .figures > figure {
