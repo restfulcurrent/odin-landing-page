@@ -47,4 +47,51 @@ body {
 
 .header > ul a:hover {
     color: #a3a5aa;
-} 
+}
+
+.title-wrapper {
+    padding: 40px 32px 72px;
+    background-color: #1F2937;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    gap: 88px;
+}
+
+.title > .lhs {
+    max-width: 640px;
+}
+
+.title > .lhs h1 {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 12px;
+}
+
+.title > .lhs p {
+    color: #E5E7EB;
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+
+.title > .lhs button {
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border: 0;
+    padding: 8px 32px;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.title >.rhs > img {
+    width: 384px;
+    height: 255px;
+    display: block;
+}
+
+.title button:hover {
+    background-color: #2c61b7;
+}
